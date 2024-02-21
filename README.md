@@ -1,6 +1,6 @@
 
-<div align="center"
+<div align="center">
 # Agency Website
-  </div>
+</div>
 
 This repository contains code for a recruitment agency website.
