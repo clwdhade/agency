@@ -6,10 +6,10 @@ const Navbar = () => {
             <div className="logo">Agency</div>
             <ul className='flex flex-row gap-2 text-2xl'>
                 <li className='font-bold text-blue-700'>Home</li>
-                <li>Services</li>
-                <li>About</li>
-                <li>Companies</li>
-                <li>Contact</li>
+                <li className='font-bold text-blue-700'>Services</li>
+                <li className='font-bold text-blue-700'>About</li>
+                <li className='font-bold text-blue-700'>Companies</li>
+                <li className='font-bold text-blue-700'>Contact</li>
 
             </ul>
         </Navbar>
