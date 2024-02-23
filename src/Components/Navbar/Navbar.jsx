@@ -5,11 +5,11 @@ const Navbar = () => {
         <navbar className="flex flex-row justify-between px-12 py-4 bg-slate-300  ">
             <div className="logo text-2xl font-extrabold">Agency</div>
             <ul className='flex flex-row gap-4 text-xl'>
-                <li >Home</li>
-                <li >Services</li>
-                <li >About</li>
-                <li >Companies</li>
-                <li >Contact</li>
+                <li className='hover:underline-offset-2 hover:underline cursor-pointer' >Home</li >
+                <li className='hover:underline-offset-2 hover:underline cursor-pointer' >Services</li >
+                <li className='hover:underline-offset-2 hover:underline cursor-pointer' >About</li >
+                <li className='hover:underline-offset-2 hover:underline cursor-pointer' >Companies</li >
+                <li className='hover:underline-offset-2 hover:underline cursor-pointer' >Contact</li>
 
             </ul>
         </navbar>
