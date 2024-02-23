@@ -2,9 +2,9 @@ import React from 'react'
 
 const Navbar = () => {
     return (
-        <Navbar className="flex flex-row justify-between px-12 py-1 bg-blur-lg text-white">
-            <div className="logo">Agency</div>
-            <ul className='flex flex-row gap-2 text-2xl'>
+        <navbar className="flex flex-row justify-between px-12 py-4 bg-slate-300  ">
+            <div className="logo text-2xl font-extrabold">Agency</div>
+            <ul className='flex flex-row gap-4 text-xl'>
                 <li >Home</li>
                 <li >Services</li>
                 <li >About</li>
@@ -12,7 +12,7 @@ const Navbar = () => {
                 <li >Contact</li>
 
             </ul>
-        </Navbar>
+        </navbar>
     )
 }
 
