@@ -1,13 +1,14 @@
 
 <div align="center">
   
-# Agency Website
+# Agency Website 
+<h3 ><span color="lime"> &#x2022;</span> Building in Progress</h3>
 
 </div>
 
 This repository contains code for a recruitment agency website.
 
-<h4 ><span color="lime"> &#x2022;</span> Building in Progress</h4>
+
 
 <h2>React Packages Used</h2>
 <p>The project uses the following React package components:</p>
