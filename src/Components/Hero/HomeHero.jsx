@@ -14,6 +14,10 @@ import 'swiper/css/scrollbar';
 // import slide data
 import { HomeHeroImages } from '../../Data/DataIndex';
 
+// import icons
+import { BsArrowLeftCircle, BsArrowRightCircle } from "react-icons/bs";
+
+
 const HomeHero = () => {
     return (
         <div>
@@ -22,7 +26,10 @@ const HomeHero = () => {
                 modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
                 spaceBetween={0}
                 slidesPerView={1}
-                navigation
+                navigation={{
+                    pprevEl: '.custom_prev',
+                    nextEl: '.custom_next',
+                }}
                 autoplay={{ delay: 5000, disableOnInteraction: false }}
                 // pagination={{ clickable: true }}
                 // scrollbar={{ draggable: true }}
@@ -42,8 +49,12 @@ const HomeHero = () => {
                         )
                     })
                 }
-                ...
+
             </Swiper>
+
+            {/* Custom Navigation Icons */}
+            <BsArrowLeftCircle className="custom_prev text-white text-2xl absolute z-10" />
+            <BsArrowRightCircle className="custom_next text-white text-2xl absolute z-10" />
         </div>
     )
 }
