@@ -15,7 +15,7 @@ import 'swiper/css/scrollbar';
 import { HomeHeroImages } from '../../Data/DataIndex';
 
 // import icons
-import { BsArrowLeftCircle, BsArrowRightCircle } from "react-icons/bs";
+import { BsArrowLeftCircle, BsArrowRightCircle, BsBoxArrowInUpRight } from "react-icons/bs";
 
 
 const HomeHero = () => {
@@ -44,6 +44,7 @@ const HomeHero = () => {
                                 <div className="absolute top-[40%] left-[25dvw] w-[50%] text-white items-center flex flex-col gap-8 z-1">
                                     <h2 className="text-4xl font-bold">{slide.title}</h2>
                                     <p className='text-xl'>{slide.text}</p>
+                                    <button className="w-[10dvw] flex flex-row gap-2 justify-center items-center py-2 rounded  text-white text-base cursor-pointer border bg-transparent hover:border hover:border-[#072e33] hover:bg-[#072e33] hover:translate-x-2 transition-all">Get Started <BsBoxArrowInUpRight /></button>
                                 </div>
                             </SwiperSlide>
                         )
@@ -55,6 +56,8 @@ const HomeHero = () => {
             {/* Custom Navigation Icons */}
             <BsArrowLeftCircle className="custom_prev text-white text-2xl absolute z-10" />
             <BsArrowRightCircle className="custom_next text-white text-2xl absolute z-10" />
+
+            
         </div>
     )
 }
