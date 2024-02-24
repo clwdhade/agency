@@ -41,6 +41,21 @@ export const HomeHeroImages = [
     }
 ];
 
+export const Companies = [
+    { image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcMdkb8yMDazOSjaabRJQU1Q4ViDyYr7v8MA&usqp=CAU", name: "Empelio Feliz" },
+    { image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuj3AB3ax3oLoBJl58uJjuR1w5VboAfecmKw&usqp=CAU", name: "Everlast" },
+    { image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9wkg4YAOG2dRPGiUi0CDoRRmvtB-MGZN45g&usqp=CAU", name: "Alliancs" },
+    { image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBZSiwhXFAhrKaTUUpMUS5sbxUG2o9MygB8Q&usqp=CAU", name: "Elagos" },
+    { image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDCBoCHml_3k_2fmZw6Mg99i8zbRBUFsU94g&usqp=CAU", name: "Apliview" },
+    { image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShGTohDKjKmqbUa7U1V2oi3IBgysId0_j7NHAb5Nkk3qw6vCB2PhATzBD5rvQD9eviVJo&usqp=CAU", name: "Chris wells" },
+    { image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLXdHhcePV1rZN6JxZpbGS-u1Fuk3YJ_p9JdbClp-fBPLrGm0aUV5bs9vK82Q7ukCOBBc&usqp=CAU", name: "Lime people" },
+    { image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4zwnI0PbL2EnQVT631oQk_Zcw3K4U3npveviCUFwcOu9PTnivSd6vBvXLYrxtf66XXgo&usqp=CAU", name: "Kerr Recruitment" },
+    { image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_u5nwUKBkAzxXa_MN55WRnJrk4kMP-Bz8wQ&usqp=CAU", name: "Cityscape" },
+    { image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5Stc6jZRT1ZGxMKFKC3eB17tNyDYElYeItQ&usqp=CAU", name: "Siggnet" },
+]
+
+
+
 export const Services = [
     {
         Image: jobsearch,
