@@ -30,11 +30,11 @@ const HomeHero = () => {
                 onSlideChange={() => console.log('slide change')}
             >
                 {
-                    HomeHeroImages.map((slide) => {
+                    HomeHeroImages.map((slide, index) => {
                         return (
-                            <SwiperSlide key={slide.id} className='h-dvh w-full text-center'>
+                            <SwiperSlide key={index} className='h-dvh w-full text-center'>
                                 <img className='h-full w-full object-cover object-center brightness-50 relative z-0' src={slide.image} alt={slide.title} />
-                                <div className="absolute top-[50%] left-[50%] text-white self-center flex flex-col gap-8 z-1">
+                                <div className="absolute top-[40%] left-[25dvw] w-[50%] text-white items-center flex flex-col gap-8 z-1">
                                     <h2 className="text-4xl font-bold">{slide.title}</h2>
                                     <p className='text-xl'>{slide.text}</p>
                                 </div>
