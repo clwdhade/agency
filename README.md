@@ -2,7 +2,7 @@
 <div align="center">
   
 # Agency Website 
-<h3 ><span color="lime"> &#x2022;</span> Building in Progress</h3>
+<h3 ><span color="lime"> &#x2022;</span> Build in Progress</h3>
 
 </div>
 
