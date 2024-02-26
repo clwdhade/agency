@@ -26,10 +26,11 @@ const Reviews = () => {
                 spaceBetween={0}
                 slidesPerView={4}
                 navigation={{
-                    pprevEl: '.prevReview',
+                    prevEl: '.prevReview',
                     nextEl: '.nextReview',
                 }}
-                autoplay={{ delay: 6000, disableOnInteraction: false }}
+                autoplay={{ delay: 6000, disableOnInteraction: true }}
+                
                 // pagination={{ clickable: true }}
                 // scrollbar={{ draggable: true }}
                 onSwiper={(swiper) => console.log(swiper)}
