@@ -4,6 +4,7 @@ import Service from './Sections/Service'
 import HomeBanner from '../../Components/Banner/HomeBanner'
 import Reviews from './Sections/Reviews'
 import Candidates from './Sections/Candidates'
+import Footer from '../../Components/Footer/Footer'
 
 const Home = () => {
     return (
@@ -22,6 +23,7 @@ const Home = () => {
                 <Reviews />
                 <Candidates />
             </div>
+            <Footer />
         </div>
     )
 }
