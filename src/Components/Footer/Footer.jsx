@@ -4,7 +4,7 @@ import { FaAd, FaEnvelope, FaFacebook, FaInstagram, FaMedium, FaReddit, FaTelegr
 
 const Footer = () => {
     return (
-        <div className=" flex w-full flex-col mt-12 md:mt-0 px-12 py-8 bg-slate-300 ">
+        <div className=" flex w-full flex-col px-12 py-8 bg-emerald-100 ">
             <div className="content w-full my-4 flex md:flex-row flex-col md:gap-4 gap-8">
                 <div className="about flex flex-col gap-4 w-full md:w-3/12">
                     <h2 className="text-xl font-bold">Agency <span className='font-light'>Recruitment Inc.</span></h2>

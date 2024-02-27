@@ -5,6 +5,7 @@ import HomeBanner from '../../Components/Banner/HomeBanner'
 import Reviews from './Sections/Reviews'
 import Candidates from './Sections/Candidates'
 import Footer from '../../Components/Footer/Footer'
+import HomeCTA from './Sections/HomeCTA'
 
 const Home = () => {
     return (
@@ -22,6 +23,7 @@ const Home = () => {
                 <Service />
                 <Reviews />
                 <Candidates />
+                <HomeCTA />
             </div>
             <Footer />
         </div>
