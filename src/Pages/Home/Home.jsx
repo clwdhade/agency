@@ -3,6 +3,7 @@ import HomeHero from '../../Components/Hero/HomeHero'
 import Service from './Sections/Service'
 import HomeBanner from '../../Components/Banner/HomeBanner'
 import Reviews from './Sections/Reviews'
+import Candidates from './Sections/Candidates'
 
 const Home = () => {
     return (
@@ -19,7 +20,7 @@ const Home = () => {
                 </div> */}
                 <Service />
                 <Reviews />
-
+                <Candidates />
             </div>
         </div>
     )
