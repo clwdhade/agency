@@ -12,7 +12,7 @@ const Service = () => {
                 {
                     Services.map((service, index) => {
                         return (
-                            <div data-aos="fade-up" key={index} className="card w-[400px] p-4 shadow-lg rounded flex flex-col gap-4 hover:scale-100 hover:shadow-slate-600 ">
+                            <div  key={index} className="card w-[400px] p-4 shadow-lg rounded flex flex-col gap-4 hover:scale-100 hover:shadow-slate-600 ">
                                 <div className="flex gap-2 items-center ">
                                     <div className=" border border-blue-500 rounded-full p-2">
                                         <img width={25} height={25} src={service.Image} alt="" srcset="" />
