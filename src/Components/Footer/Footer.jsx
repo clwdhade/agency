@@ -4,7 +4,7 @@ import { FaAd, FaEnvelope, FaFacebook, FaInstagram, FaMedium, FaReddit, FaTelegr
 
 const Footer = () => {
     return (
-        <div className=" flex w-full flex-col px-12 py-8 bg-emerald-100 ">
+        <div className=" flex w-full flex-col px-12 py-8 bg-emerald-800 text-white">
             <div className="content w-full my-4 flex md:flex-row flex-col md:gap-4 gap-8">
                 <div className="about flex flex-col gap-4 w-full md:w-3/12">
                     <h2 className="text-xl font-bold">Agency <span className='font-light'>Recruitment Inc.</span></h2>
@@ -17,7 +17,7 @@ const Footer = () => {
                         <FaMedium className='text-lg md:text-2xl  cursor-pointer hover:-translate-y-1 transition-all' />
                         <FaFacebook className='text-lg md:text-2xl hover:text-blue-700 cursor-pointer hover:-translate-y-1 transition-all' />
                         <FaReddit className='text-lg md:text-2xl hover:text-orange-800 cursor-pointer hover:-translate-y-1 transition-all' />
-                        <FaEnvelope className='text-lg md:text-2xl hover:text-purple-800 cursor-pointer hover:-translate-y-1 transition-all' />
+                        <FaEnvelope className='text-lg md:text-2xl hover:text-red-800 cursor-pointer hover:-translate-y-1 transition-all' />
                     </div>
                 </div>
                 <div className=" w-full md:w-6/12 justify-evenly flex-row  flex">
@@ -41,11 +41,11 @@ const Footer = () => {
                     <p className="text-base">Subscribe to our <span className='font-bold'>weekly</span> newsletter. </p>
                     <form className="flex flex-col gap-4">
                         <input type="email" name="email" id="email" className="py-1 bg-transparent w-full rounded-md " placeholder="Your Email here." />
-                        <button className="py-1 font-bold w-full rounded text-white bg-emerald-700 hover:bg-emerald-900">Subscribe!</button>
+                        <button className="py-1 font-bold w-full rounded text-white bg-black hover:bg-emerald-100 hover:text-black">Subscribe!</button>
                     </form>
                 </div>
             </div>
-            <hr className="h-[1px] rounded bg-black outline-none border-none my-4" />
+            <hr className="h-[1px] rounded bg-white outline-none border-none my-4" />
             <div className="copyright">
                 <p className="font-bold text-xs  text-center ">&copy; Agency Inc. &mdash; 2024</p>
             </div>
