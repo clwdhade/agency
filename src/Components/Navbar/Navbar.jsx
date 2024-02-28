@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { BsXCircle } from "react-icons/bs"
 import { FaBars } from "react-icons/fa"
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
 
@@ -26,11 +27,21 @@ const Navbar = () => {
         <div style={ResponsiveStyle} className={`${setIsResponsive ? "responsive" : ""} flex flex-row justify-between px-12 py-4 bg-slate-300 fixed top-0 w-full z-50`}>
             <div className="logo text-2xl font-extrabold">Agency</div>
             <ul className='nav_menu md:flex flex-row gap-4 text-xl hidden'>
-                <li className='hover:underline-offset-2 hover:underline cursor-pointer' >Home</li >
-                <li className='hover:underline-offset-2 hover:underline cursor-pointer' >Services</li >
-                <li className='hover:underline-offset-2 hover:underline cursor-pointer' >About</li >
-                <li className='hover:underline-offset-2 hover:underline cursor-pointer' >Companies</li >
-                <li className='hover:underline-offset-2 hover:underline cursor-pointer' >Contact</li>
+                <li className='hover:underline-offset-2 hover:underline cursor-pointer' >
+                    <Link to="/">Home</Link>
+                </li >
+                <li className='hover:underline-offset-2 hover:underline cursor-pointer' >
+                    <Link to="/services">Services</Link>
+                </li >
+                <li className='hover:underline-offset-2 hover:underline cursor-pointer' >
+                    <Link to="/about">About</Link>
+                </li >
+                <li className='hover:underline-offset-2 hover:underline cursor-pointer' >
+                    <Link to="/companies">Companies</Link>
+                </li >
+                <li className='hover:underline-offset-2 hover:underline cursor-pointer' >
+                    <Link to="/contact">Contact</Link>
+                </li>
                 <BsXCircle className='cursor-pointer md:hidden block' onClick={toggleResponsive} />
             </ul>
             <FaBars className="cursor-pointer md:hidden block" onClick={toggleResponsive} />
