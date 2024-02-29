@@ -47,7 +47,7 @@ const Reviews = () => {
           {reviews.map((review, index) => {
             return (
               <SwiperSlide key={index} className="w-full flex justify-center">
-                <div className="card w-full md:w-[300px] h-[300px] border rounded-md shadow-lg p-4  flex flex-col justify-between">
+                <div className="card w-full md:w-[300px] h-[300px] border rounded-md shadow-lg shadow-yellow-500 p-4  flex flex-col justify-between">
                   <FaQuoteLeft className="text-yellow-500 text-2xl " />
                   <p className="review text-base ">{review.review}</p>
                   <div className="reviewer flex flex-row items-center gap-4 pt-4">
@@ -89,7 +89,7 @@ const Reviews = () => {
           {reviews.map((review, index) => {
             return (
               <SwiperSlide key={index} className="w-full flex justify-center">
-                <div className="card w-full md:w-[300px] h-[300px] border rounded-md shadow-lg p-4  flex flex-col justify-between">
+                <div className="card w-full md:w-[300px] h-[300px] border rounded-md shadow-lg shadow-yellow-500 p-4  flex flex-col justify-between">
                   <FaQuoteLeft className="text-yellow-500 text-2xl " />
                   <p className="review text-base ">{review.review}</p>
                   <div className="reviewer flex flex-row items-center gap-4 pt-4">
