@@ -10,30 +10,13 @@ const Navbar = () => {
     setIsResponsive(!responsive);
   };
 
-  const ResponsiveStyle = {
-    ".responsive": {
-      alignItems: "center",
-    },
-
-    ".responsive.nav_menu": {
-      flexDirection: "column",
-      justifyContent: "center",
-      alignItems: "center",
-    },
-  };
-
   return (
-    <div
-      style={ResponsiveStyle}
-      className={`${
-        setIsResponsive ? "responsive" : ""
-      } flex flex-row justify-between px-12 py-4 bg-slate-300 fixed top-0 w-full z-50`}
-    >
+    <div className={`flex justify-between items-center px-12 py-4 bg-slate-300 fixed top-0 w-full z-50 ${responsive ? 'flex-col items-center' : ''}`}>
       <div className="logo text-2xl font-extrabold">
         <span className="text-yellow-500">R</span>ecruitment{" "}
         <span className="text-yellow-500">A</span>gency
       </div>
-      <ul className="nav_menu md:flex flex-row gap-4 text-xl hidden ">
+      <ul className={`nav_menu md:flex ${responsive ? 'flex flex-col gap-4 h-[50dvh] transition-all ease-in-out justify-center items-center' : 'flex-row gap-4'} text-xl ${responsive ? '' : 'hidden'}`}>
         <li className="hover:underline-offset-2 hover:underline cursor-pointer decoration-yellow-500">
           <Link to="/">Home</Link>
         </li>
@@ -50,12 +33,12 @@ const Navbar = () => {
           <Link to="/contact">Contact</Link>
         </li>
         <BsXCircle
-          className="cursor-pointer md:hidden block"
+          className={`cursor-pointer text-2xl hover:red-400 md:hidden ${responsive ? 'block' : 'hidden'}`}
           onClick={toggleResponsive}
         />
       </ul>
       <FaBars
-        className="cursor-pointer md:hidden block"
+        className={`cursor-pointer text-xl md:hidden ${responsive ? 'hidden' : 'block'}`}
         onClick={toggleResponsive}
       />
     </div>
