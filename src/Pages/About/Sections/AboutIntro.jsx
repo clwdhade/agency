@@ -18,18 +18,18 @@ const AboutIntro = () => {
           'url("https://images.pexels.com/photos/10347150/pexels-photo-10347150.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")',
       }}
     >
-      <div className="grid grid-cols-2 bg-gradient-to-r from-black to-transparent">
-        <div className="w-full h-[100dvh] flex flex-col px-12 gap-4 justify-center items-end">
-          <h1 className="text-xl font-semibold text-yellow-500">
+      <div className="md:grid flex flex-col gap-2 justify-center md:grid-cols-2 bg-gradient-to-r from-black to-transparent">
+        <div className="w-full h-[100dvh] flex flex-col px-12 md:gap-4 gap-2 justify-center item-center md:items-end">
+          <h1 className="md:text-xl text-lg text-center font-semibold text-yellow-500">
             About{" "}
             <span classname="font-light text-white">
               Recruitment Agency Inc.
             </span>
           </h1>
-          <h3 className="text-5xl font-extralight text-white">
+          <h3 className="text-2xl text-center md:text-5xl font-extralight text-white">
             Where It All Began
           </h3>
-          <p className="text-lg font-light text-white text-right">
+          <p className="md:text-lg text-base font-light text-white text-right">
             We are a team of professionals who are dedicated to providing the
             best services to our clients. We have been in the business for more
             than <sspan className="font-bold">10 years</sspan> and have served
@@ -41,7 +41,7 @@ const AboutIntro = () => {
           <button
             onMouseEnter={handleHover} 
             onMouseLeave={handleHover} 
-            className="py-2 px-8 font-semibold rounded cursor-pointer bg-yellow-400 group hover:text-white hover:bg-black relative flex flex-row gap-2 transition-all ease-in-out"
+            className="py-2 px-8 font-semibold text-center rounded cursor-pointer bg-yellow-400 group hover:text-white hover:bg-black relative flex flex-row gap-2 justify-center transition-all ease-in-out"
           >
             Request Talent
             {isHover && (
