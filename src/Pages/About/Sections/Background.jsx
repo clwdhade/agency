@@ -2,8 +2,8 @@ import React from "react";
 
 const Background = () => {
   return (
-    <div className="grid md:grid-cols-2 grid-cols-1 w-full md:p-24 py-8 px-4  md:gap-12">
-      <div className="flex flex-col gap-4 justify-center items-center">
+    <div className="grid md:grid-cols-2 grid-cols-1 w-full md:p-24 py-8 px-4 gap-8 md:gap-12">
+      <div className="flex flex-col gap-4 justify-evenly items-center">
         <div className="flex flex-col gap-4  md:items-end">
           <h2 className="text-3xl font-extrabold text-yellow-500">
             Our <span className="font-light text-black">Vision</span>
@@ -29,15 +29,28 @@ const Background = () => {
           </p>
         </div>
       </div>
-      <div className="flex flex-col gap-4 justify-center md:p-24 py-8 px-2">
-        <h2 className="text-3xl font-extrabold text-yellow-500">
-          Our <span className="font-light text-black">Background</span>
-        </h2>
-        <p className="md:text-xl text-lg">
-          We are a recruitment agency that has been in business for over <span className="font-bold">10
-          years</span>. We have helped thousands of people find their dream job and
-          hundreds of companies find the perfect candidate.
-        </p>
+      <div className="flex flex-col gap-4 justify-evenly items-center">
+        <div className="flex flex-col gap-4  ">
+          <h2 className="text-3xl font-extrabold text-yellow-500">
+            Our <span className="font-light text-black">Values</span>
+          </h2>
+          <p className="text-lg">
+            Our values are to be <span className="font-bold italic">honest</span>, <span className="font-bold italic">transparent</span> and to provide the <span className="font-bold italic">best
+            service</span> possible. We believe that these values are the key to
+            success and we strive to uphold them in everything we do.
+          </p>
+        </div>
+        <div className="flex flex-col gap-4 ">
+          <h2 className="text-3xl font-extrabold text-yellow-500">
+            Our <span className="font-light text-black">Background</span>
+          </h2>
+          <p className=" text-lg">
+            We are a recruitment agency that has been in business for over{" "}
+            <span className="font-bold">10 years</span>. We have helped
+            thousands of people find their dream job and hundreds of companies
+            find the perfect candidate.
+          </p>
+        </div>
       </div>
     </div>
   );
