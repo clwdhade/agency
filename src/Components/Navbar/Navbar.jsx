@@ -10,6 +10,10 @@ const Navbar = () => {
     setIsResponsive(!responsive);
   };
 
+  const closeNavbar = () => {
+    setIsResponsive(false); // Close the navbar
+  };
+
   return (
     <div className={`flex justify-between items-center px-12 py-4 bg-slate-300 fixed top-0 w-full z-50 ${responsive ? 'flex-col items-center' : ''}`}>
       <div className="logo text-2xl font-extrabold">
@@ -17,19 +21,19 @@ const Navbar = () => {
         <span className="text-yellow-500">A</span>gency
       </div>
       <ul className={`nav_menu md:flex ${responsive ? 'flex flex-col gap-4 h-[50dvh] transition-all ease-in-out justify-center items-center' : 'flex-row gap-4'} text-xl ${responsive ? '' : 'hidden'}`}>
-        <li className="hover:underline-offset-2 hover:underline cursor-pointer decoration-yellow-500">
+        <li className="hover:underline-offset-2 hover:underline cursor-pointer decoration-yellow-500" onClick={closeNavbar}>
           <Link to="/">Home</Link>
         </li>
-        <li className="hover:underline-offset-2 hover:underline cursor-pointer decoration-yellow-500">
+        <li className="hover:underline-offset-2 hover:underline cursor-pointer decoration-yellow-500" onClick={closeNavbar}>
           <Link to="/services">Services</Link>
         </li>
-        <li className="hover:underline-offset-2 hover:underline cursor-pointer decoration-yellow-500">
+        <li className="hover:underline-offset-2 hover:underline cursor-pointer decoration-yellow-500" onClick={closeNavbar}>
           <Link to="/about">About</Link>
         </li>
-        <li className="hover:underline-offset-2 hover:underline cursor-pointer decoration-yellow-500">
+        <li className="hover:underline-offset-2 hover:underline cursor-pointer decoration-yellow-500" onClick={closeNavbar}>
           <Link to="/companies">Companies</Link>
         </li>
-        <li className="hover:underline-offset-2 hover:underline cursor-pointer decoration-yellow-500">
+        <li className="hover:underline-offset-2 hover:underline cursor-pointer decoration-yellow-500" onClick={closeNavbar}>
           <Link to="/contact">Contact</Link>
         </li>
         <BsXCircle
