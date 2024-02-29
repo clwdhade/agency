@@ -5,8 +5,8 @@ import Marquee from "react-fast-marquee";
 
 const HomeBanner = () => {
     return (
-        <div className="text-center my-12">
-            <h3 className="text-3xl py-8 font-bold text-yellow-500">Our <span className="font-light font-black">Partners</span></h3>
+        <div className="text-center my-8 md:my-12">
+            <h3 className="text-3xl py-8 font-bold text-yellow-500">Our <span className="font-light text-black">Partners</span></h3>
             <Marquee 
         className="w-full  h-[10dvh]  flex flex-row items-center justify-center"
         pauseOnHover={true}

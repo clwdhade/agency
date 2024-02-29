@@ -11,6 +11,8 @@ import {
 } from "react-icons/fa";
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
+
   return (
     <div className=" flex w-full flex-col px-12 py-8 bg-slate-800 text-white">
       <div className="content w-full my-4 flex md:flex-row flex-col md:gap-4 gap-8">
@@ -95,8 +97,8 @@ const Footer = () => {
       </div>
       <hr className="h-[1px] rounded bg-white outline-none border-none my-4" />
       <div className="copyright">
-        <p className="font-bold text-xs  text-center ">
-          &copy; Agency Inc. &mdash; 2024
+        <p className="font-bold text-xs  text-center text-yellow-400 ">
+          &copy; Recruitment Agency Inc. &mdash; {currentYear} &#x2022; All Rights Reserved.
         </p>
       </div>
     </div>

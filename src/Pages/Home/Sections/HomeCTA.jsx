@@ -3,7 +3,7 @@ import { BsBoxArrowUpRight } from "react-icons/bs"
 
 const HomeCTA = () => {
     return (
-        <div className='flex md:flex-row flex-col gap-4 mt-16 md:p-12 p-8 rounded bg-yellow-100'>
+        <div className='flex md:flex-row flex-col gap-4 mt-16 md:p-12 p-8 rounded bg-gradient-to-l from-slate-100 to-slate-300'>
             <div className="w-full md:w-3/4 flex flex-col gap-4 items-center">
                 <p className="text-xl text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque eius alias beatae repellendus? Esse in molestias dolorem, quibusdam velit voluptates exercitationem, nemo dolores quos dolorum vero assumenda voluptatem? </p>
                 <p className="text-xl font-bold">Reprehenderit, saepe.</p>
