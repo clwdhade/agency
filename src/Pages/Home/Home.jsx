@@ -12,7 +12,7 @@ const Home = () => {
         <div className='home '>
             <HomeHero />
             <div className="home_wrapper mx-4 md:mx-12 my-8 py-8 flex flex-col gap-12">
-                <HomeBanner />
+                
                 {/* <div className="flex flex-col gap-2">
                     <h5 className="text-base uppercase font-bold py-2 px-2 rounded w-max ">Top Notch Services in the Industry</h5>
                     <div className="grid grid-cols-2 gap-4 px-8">
@@ -24,7 +24,9 @@ const Home = () => {
                 <Reviews />
                 <Candidates />
                 <HomeCTA />
+                
             </div>
+            <HomeBanner />
             <Footer />
         </div>
     )
