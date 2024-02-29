@@ -1,12 +1,16 @@
-import React from 'react'
-import AboutIntro from './Sections/AboutIntro'
+import React from "react";
+import AboutIntro from "./Sections/AboutIntro";
+import Background from "./Sections/Background";
 
 const About = () => {
   return (
     <div>
-      <AboutIntro/>
+      <AboutIntro />
+      <div className="mx-8">
+        <Background />
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default About
+export default About;
